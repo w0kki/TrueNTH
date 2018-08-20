@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get build</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e0fe81f-ab9f-430f-b415-e0ce06ab1aff</testCaseGuid>
+   <variable>
+      <defaultValue>'ePROMS_stg.txt'</defaultValue>
+      <description></description>
+      <id>fc61ee06-6441-4fff-a4b6-a45aaad29be2</id>
+      <masked>false</masked>
+      <name>textFile</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/warren.cheong/Desktop/Katalon Studio tests/TrueNTH builds'</defaultValue>
+      <description></description>
+      <id>3043db24-fab5-4b8f-8bee-c1da2dc9ff56</id>
+      <masked>false</masked>
+      <name>directory</name>
+   </variable>
+</TestCaseEntity>

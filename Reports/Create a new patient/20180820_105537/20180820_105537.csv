@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create a new patient,Chrome 68.0.3440.75,"This includes logging in, and creating a new patient",2018-08-20 10:55:39,2018-08-20 10:57:06,1m - 27.705s,FAILED
+,,,,,,
+Test Cases/ePROMS/1. Log in/1.2. Log in - Staff,Chrome 68.0.3440.75,Start - TrueNTH Homepage; End - Staff Homepage,2018-08-20 10:55:39,2018-08-20 10:56:09,29.992s,PASSED
+openBrowser,Chrome 68.0.3440.75,"ePROMS Demo
+",2018-08-20 10:55:40,2018-08-20 10:55:45,5.379s,PASSED
+maximizeWindow,Chrome 68.0.3440.75,,2018-08-20 10:55:45,2018-08-20 10:55:45,0.002s,NOT_RUN
+waitForElementClickable,Chrome 68.0.3440.75,,2018-08-20 10:55:45,2018-08-20 10:55:46,0.379s,PASSED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:55:46,2018-08-20 10:55:47,1.025s,PASSED
+click,Chrome 68.0.3440.75,,2018-08-20 10:55:47,2018-08-20 10:55:47,0.719s,PASSED
+waitForElementVisible,Chrome 68.0.3440.75,,2018-08-20 10:55:47,2018-08-20 10:55:48,0.573s,PASSED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:55:48,2018-08-20 10:55:49,1.004s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:55:49,2018-08-20 10:55:49,0.264s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:55:49,2018-08-20 10:55:49,0.126s,PASSED
+click,Chrome 68.0.3440.75,,2018-08-20 10:55:49,2018-08-20 10:56:04,14.985s,PASSED
+waitForElementVisible,Chrome 68.0.3440.75,,2018-08-20 10:56:04,2018-08-20 10:56:07,2.464s,PASSED
+,,,,,,
+Test Cases/ePROMS/2. Create new patient record/2.2a. Create a new patient - with email address,Chrome 68.0.3440.75,Start - Patients page; End - Newly created patient's profile,2018-08-20 10:56:09,2018-08-20 10:56:26,16.534s,PASSED
+click,Chrome 68.0.3440.75,,2018-08-20 10:56:09,2018-08-20 10:56:14,4.265s,PASSED
+waitForElementVisible,Chrome 68.0.3440.75,,2018-08-20 10:56:14,2018-08-20 10:56:14,0.570s,PASSED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:56:14,2018-08-20 10:56:15,1.008s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:15,2018-08-20 10:56:15,0.259s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:15,2018-08-20 10:56:16,0.194s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:16,2018-08-20 10:56:16,0.150s,PASSED
+selectOptionByLabel,Chrome 68.0.3440.75,,2018-08-20 10:56:16,2018-08-20 10:56:16,0.276s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:16,2018-08-20 10:56:16,0.177s,PASSED
+Statement - randomNum = new java.util.Random().nextInt(1000000) + 1,Chrome 68.0.3440.75,,2018-08-20 10:56:16,2018-08-20 10:56:16,0.005s,PASSED
+"Statement - randomEmail = emailAddress - ""@gmail.com"" + ""+"" + randomNum + ""@gmail.com""",Chrome 68.0.3440.75,,2018-08-20 10:56:16,2018-08-20 10:56:16,0.001s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:16,2018-08-20 10:56:17,0.466s,PASSED
+Statement - If (noEmail == true),Chrome 68.0.3440.75,"If user has no email address, change the ""noEmail"" variable to true",2018-08-20 10:56:17,2018-08-20 10:56:17,0.001s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:17,2018-08-20 10:56:17,0.248s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:17,2018-08-20 10:56:17,0.217s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:17,2018-08-20 10:56:17,0.104s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:17,2018-08-20 10:56:17,0.137s,PASSED
+selectOptionByLabel,Chrome 68.0.3440.75,,2018-08-20 10:56:17,2018-08-20 10:56:18,0.074s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:18,2018-08-20 10:56:18,0.156s,PASSED
+scrollToElement,Chrome 68.0.3440.75,"Must select the same test object as the ""Check"" step below (the clinic that this user is a patient of)
+",2018-08-20 10:56:18,2018-08-20 10:56:18,0.057s,PASSED
+check,Chrome 68.0.3440.75,"To change the clinic, change to the appropriate test object. Don't forget to change ""Scroll to Element"" step's test object to the same site
+",2018-08-20 10:56:18,2018-08-20 10:56:18,0.102s,PASSED
+scrollToElement,Chrome 68.0.3440.75,,2018-08-20 10:56:18,2018-08-20 10:56:18,0.036s,PASSED
+click,Chrome 68.0.3440.75,,2018-08-20 10:56:18,2018-08-20 10:56:18,0.123s,PASSED
+waitForElementVisible,Chrome 68.0.3440.75,,2018-08-20 10:56:18,2018-08-20 10:56:23,5.488s,PASSED
+,,,,,,
+Test Cases/ePROMS/2. Create new patient record/2.2b. Send patient Email,Chrome 68.0.3440.75,Start - Newly created patient's profile; End - Gmail log in page,2018-08-20 10:56:26,2018-08-20 10:56:35,9.729s,PASSED
+"Statement - If (emailType == ""Invite"")",Chrome 68.0.3440.75,"We send an invite or reminder depending on what the ""emailType"" variable is",2018-08-20 10:56:26,2018-08-20 10:56:26,0.157s,PASSED
+waitForElementClickable,Chrome 68.0.3440.75,,2018-08-20 10:56:26,2018-08-20 10:56:26,0.040s,PASSED
+click,Chrome 68.0.3440.75,,2018-08-20 10:56:26,2018-08-20 10:56:26,0.102s,PASSED
+waitForElementVisible,Chrome 68.0.3440.75,,2018-08-20 10:56:26,2018-08-20 10:56:26,0.052s,PASSED
+waitForElementNotVisible,Chrome 68.0.3440.75,,2018-08-20 10:56:26,2018-08-20 10:56:28,2.151s,PASSED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:56:28,2018-08-20 10:56:30,2.005s,PASSED
+navigateToUrl,Chrome 68.0.3440.75,,2018-08-20 10:56:30,2018-08-20 10:56:33,3.065s,PASSED
+waitForElementVisible,Chrome 68.0.3440.75,,2018-08-20 10:56:33,2018-08-20 10:56:33,0.046s,PASSED
+,,,,,,
+Test Cases/ePROMS/2. Create new patient record/2.2c. Log in to gmail,Chrome 68.0.3440.75,Start - Gmail Log in page; End - Inbox,2018-08-20 10:56:35,2018-08-20 10:56:50,14.746s,PASSED
+openBrowser,Chrome 68.0.3440.75,,2018-08-20 10:56:35,2018-08-20 10:56:39,3.502s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:39,2018-08-20 10:56:39,0.303s,PASSED
+click,Chrome 68.0.3440.75,,2018-08-20 10:56:39,2018-08-20 10:56:39,0.201s,PASSED
+waitForElementVisible,Chrome 68.0.3440.75,,2018-08-20 10:56:39,2018-08-20 10:56:40,0.574s,PASSED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:56:40,2018-08-20 10:56:42,2.007s,PASSED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:56:42,2018-08-20 10:56:42,0.148s,PASSED
+click,Chrome 68.0.3440.75,,2018-08-20 10:56:42,2018-08-20 10:56:42,0.112s,PASSED
+waitForElementVisible,Chrome 68.0.3440.75,,2018-08-20 10:56:42,2018-08-20 10:56:47,4.709s,PASSED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:56:47,2018-08-20 10:56:48,1.001s,PASSED
+,,,,,,
+Test Cases/ePROMS/2. Create new patient record/2.2d. Check first email,Chrome 68.0.3440.75,Start - Gmail inbox ; End - Verify account email,2018-08-20 10:56:50,2018-08-20 10:57:01,10.912s,FAILED
+"Statement - If (emailType == ""invite"")",Chrome 68.0.3440.75,,2018-08-20 10:56:50,2018-08-20 10:56:50,0.003s,PASSED
+waitForElementPresent,Chrome 68.0.3440.75,,2018-08-20 10:56:50,2018-08-20 10:56:50,0.035s,PASSED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:56:50,2018-08-20 10:56:51,1.006s,PASSED
+"Statement - unreadClass = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Gmail/Inbox/First email read status), ""class"")",Chrome 68.0.3440.75,,2018-08-20 10:56:51,2018-08-20 10:56:51,0.038s,PASSED
+verifyMatch,Chrome 68.0.3440.75,"If the email is unread, it will have the class ""zF"".
+If the email is read, it will have the class ""yP""",2018-08-20 10:56:51,2018-08-20 10:56:51,0.012s,FAILED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:56:51,2018-08-20 10:56:52,1.005s,PASSED
+click,Chrome 68.0.3440.75,,2018-08-20 10:56:52,2018-08-20 10:56:53,0.263s,PASSED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:56:53,2018-08-20 10:56:54,1.007s,PASSED
+click,Chrome 68.0.3440.75,,2018-08-20 10:56:54,2018-08-20 10:56:54,0.145s,PASSED
+delay,Chrome 68.0.3440.75,,2018-08-20 10:56:54,2018-08-20 10:56:59,5.003s,PASSED
+switchToWindowIndex,Chrome 68.0.3440.75,,2018-08-20 10:56:59,2018-08-20 10:56:59,0.030s,PASSED
+waitForElementVisible,Chrome 68.0.3440.75,,2018-08-20 10:56:59,2018-08-20 10:56:59,0.191s,PASSED
+,,,,,,
+Test Cases/ePROMS/2. Create new patient record/2.2e. Verify email and create account,Chrome 68.0.3440.75,Start - Verify Account email ; End - Patient profile,2018-08-20 10:57:01,2018-08-20 10:57:06,5.396s,FAILED
+setText,Chrome 68.0.3440.75,,2018-08-20 10:57:01,2018-08-20 10:57:04,3.204s,FAILED

@@ -1,0 +1,53 @@
+1
+00:00:00,102 --> 00:00:00,102
+1. Statement - If (emailType == "invite")
+
+2
+00:00:00,103 --> 00:00:00,103
+1. Statement - emailSubject = "Get Started: Verify Your TrueNTH Account"
+
+3
+00:00:00,105 --> 00:00:00,106
+5. waitForElementPresent
+
+4
+00:00:00,141 --> 00:00:00,141
+9. delay
+
+5
+00:00:01,144 --> 00:00:01,145
+13. Statement - unreadClass = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Gmail/Inbox/First email read status), "class")
+
+6
+00:00:01,186 --> 00:00:01,186
+19. If the email is unread, it will have the class "zF".
+If the email is read, it will have the class "yP"
+
+7
+00:00:01,194 --> 00:00:01,194
+23. delay
+
+8
+00:00:02,198 --> 00:00:02,198
+27. click
+
+9
+00:00:02,470 --> 00:00:02,470
+31. delay
+
+10
+00:00:03,473 --> 00:00:03,474
+35. click
+
+11
+00:00:03,612 --> 00:00:03,612
+39. delay
+
+12
+00:00:08,619 --> 00:00:08,620
+43. switchToWindowIndex
+
+13
+00:00:08,644 --> 00:00:08,644
+47. waitForElementVisible
+

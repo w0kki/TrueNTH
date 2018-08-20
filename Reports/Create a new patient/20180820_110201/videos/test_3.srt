@@ -1,0 +1,36 @@
+1
+00:00:00,137 --> 00:00:00,150
+3. We send an invite or reminder depending on what the "emailType" variable is
+
+2
+00:00:00,150 --> 00:00:00,152
+1. selectOptionByLabel
+
+3
+00:00:00,284 --> 00:00:00,285
+7. waitForElementClickable
+
+4
+00:00:00,331 --> 00:00:00,332
+11. click
+
+5
+00:00:00,434 --> 00:00:00,435
+15. waitForElementVisible
+
+6
+00:00:00,490 --> 00:00:00,491
+19. waitForElementNotVisible
+
+7
+00:00:03,136 --> 00:00:03,136
+23. delay
+
+8
+00:00:05,141 --> 00:00:05,141
+27. navigateToUrl
+
+9
+00:00:08,024 --> 00:00:08,025
+31. waitForElementVisible
+

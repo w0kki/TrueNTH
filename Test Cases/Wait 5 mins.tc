@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Wait 5 mins</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69c443e4-2d19-4e63-95ae-cabc95a36368</testCaseGuid>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description>How many minutes you want to wait</description>
+      <id>8dcbc164-26d5-444a-b1fd-90b5d9d80951</id>
+      <masked>false</masked>
+      <name>minutes</name>
+   </variable>
+</TestCaseEntity>

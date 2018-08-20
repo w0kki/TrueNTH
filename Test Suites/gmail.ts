@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>gmail</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-08-17T11:55:34</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>70551fb0-7abe-4a90-b13b-a52f244ec506</testSuiteGuid>
+   <testCaseLink>
+      <guid>0e1c3a7a-5e02-4b6b-b6da-bb5ed0c1dbab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ePROMS/2. Create new patient record/2.2c. Log in to gmail</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bc578510-758b-4bb2-8019-154d7fa55438</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7173787c-2541-4935-b24d-81b77e7dec54</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c5c584b7-a98c-40ce-8df9-24d9ce7da90c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ePROMS/2. Create new patient record/2.2d. Check first email</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a6146243-463f-464c-9f76-33d04a2a3473</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ed8056f-b8cb-45d3-98cd-40482511a75b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ePROMS/2. Create new patient record/2.2e. Verify email and create account</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,94 @@
+1
+00:00:00,100 --> 00:00:00,101
+1. click
+
+2
+00:00:04,266 --> 00:00:04,267
+5. waitForElementVisible
+
+3
+00:00:04,831 --> 00:00:04,832
+9. delay
+
+4
+00:00:05,838 --> 00:00:05,839
+13. setText
+
+5
+00:00:06,013 --> 00:00:06,015
+17. setText
+
+6
+00:00:06,225 --> 00:00:06,226
+21. setText
+
+7
+00:00:06,384 --> 00:00:06,385
+25. selectOptionByLabel
+
+8
+00:00:06,526 --> 00:00:06,527
+29. setText
+
+9
+00:00:06,740 --> 00:00:06,741
+33. Statement - randomNum = new java.util.Random().nextInt(1000000) + 1
+
+10
+00:00:06,751 --> 00:00:06,754
+37. Statement - randomEmail = emailAddress - "@gmail.com" + "+" + randomNum + "@gmail.com"
+
+11
+00:00:06,759 --> 00:00:06,762
+41. setText
+
+12
+00:00:07,236 --> 00:00:07,236
+47. If user has no email address, change the "noEmail" variable to true
+
+13
+00:00:07,238 --> 00:00:07,239
+51. setText
+
+14
+00:00:07,470 --> 00:00:07,471
+55. setText
+
+15
+00:00:07,697 --> 00:00:07,699
+59. setText
+
+16
+00:00:07,822 --> 00:00:07,823
+63. setText
+
+17
+00:00:07,952 --> 00:00:07,953
+67. selectOptionByLabel
+
+18
+00:00:08,028 --> 00:00:08,028
+71. setText
+
+19
+00:00:08,202 --> 00:00:08,203
+77. Must select the same test object as the "Check" step below (the clinic that this user is a patient of)
+
+
+20
+00:00:08,244 --> 00:00:08,244
+83. To change the clinic, change to the appropriate test object. Don't forget to change "Scroll to Element" step's test object to the same site
+
+
+21
+00:00:08,351 --> 00:00:08,352
+87. scrollToElement
+
+22
+00:00:08,393 --> 00:00:08,394
+91. click
+
+23
+00:00:08,550 --> 00:00:08,550
+95. waitForElementVisible
+
