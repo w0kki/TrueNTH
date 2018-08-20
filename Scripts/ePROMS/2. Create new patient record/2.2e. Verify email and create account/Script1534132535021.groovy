@@ -46,18 +46,20 @@ WebUI.waitForElementClickable(findTestObject('TrueNTH/Register for TrueNTH page/
 
 WebUI.click(findTestObject('TrueNTH/Register for TrueNTH page/Register button'))
 
-WebUI.waitForElementPresent(findTestObject('TrueNTH/Register for TrueNTH page/Initial Queries page (initial-queries)/Consent checkbox'), 10)
+WebUI.waitForElementPresent(findTestObject('TrueNTH/Initial Queries page (initial-queries)/Consent checkbox'), 10)
 
-WebUI.scrollToElement(findTestObject('TrueNTH/Register for TrueNTH page/Initial Queries page (initial-queries)/Consent checkbox'), 0)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('TrueNTH/Register for TrueNTH page/Initial Queries page (initial-queries)/Consent checkbox'))
+WebUI.scrollToElement(findTestObject('TrueNTH/Initial Queries page (initial-queries)/Consent checkbox'), 0)
 
-WebUI.click(findTestObject('TrueNTH/Register for TrueNTH page/Initial Queries page (initial-queries)/Privacy policy and terms checkbox'))
+WebUI.click(findTestObject('TrueNTH/Initial Queries page (initial-queries)/Consent checkbox'))
 
-WebUI.waitForElementVisible(findTestObject('TrueNTH/Register for TrueNTH page/Initial Queries page (initial-queries)/Continue to TrueNTH button'), 
+WebUI.click(findTestObject('TrueNTH/Initial Queries page (initial-queries)/Privacy policy checkbox'))
+
+WebUI.waitForElementVisible(findTestObject('TrueNTH/Initial Queries page (initial-queries)/Continue to TrueNTH button'), 
     8)
 
-WebUI.click(findTestObject('TrueNTH/Register for TrueNTH page/Initial Queries page (initial-queries)/Continue to TrueNTH button'))
+WebUI.click(findTestObject('TrueNTH/Initial Queries page (initial-queries)/Continue to TrueNTH button'))
 
 WebUI.waitForElementVisible(findTestObject('TrueNTH/Questionnaires page/Go to questionnaire button'), 20)
 

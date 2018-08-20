@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Start - Verify Account email ; End - Patient profile</description>
+   <description>Start - Verify Account email ; End - Questionnaires page</description>
    <name>2.2e. Verify email and create account</name>
    <tag></tag>
    <comment></comment>

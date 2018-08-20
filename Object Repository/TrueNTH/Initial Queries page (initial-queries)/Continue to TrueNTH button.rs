@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Privacy policy and terms checkbox</name>
+   <name>Continue to TrueNTH button</name>
    <tag></tag>
-   <elementGuidId>be0f773d-8b5b-4973-aa9c-224386d4ab53</elementGuidId>
+   <elementGuidId>cc3752ba-7f40-4697-9a25-5c522a748bb7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[contains(@class, 'terms-label')][2]/i[contains(@class, 'fa fa-square-o fa-lg terms-tick-box')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@id='updateProfile']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
