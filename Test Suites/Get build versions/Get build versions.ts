@@ -8,7 +8,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>ePROMS - stg</profileName>
+            <profileName>ePROMs IRONMAN - stg</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -17,7 +17,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>ePROMS - demo</profileName>
+            <profileName>ePROMs IRONMAN - demo</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

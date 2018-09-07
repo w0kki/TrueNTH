@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Start - Medidata Rave log in ; End - Medidata Subject TrueNTH integration page</description>
+   <name>2.3a Medidata Rave - create new patient</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e84281f-c115-4b1a-80f2-586076c510fc</testCaseGuid>
+   <variable>
+      <defaultValue>'https://login.imedidata.com/'</defaultValue>
+      <description></description>
+      <id>c62b4ed0-8a4b-42df-acf5-85b61e0931f0</id>
+      <masked>false</masked>
+      <name>medidataRaveUrl</name>
+   </variable>
+</TestCaseEntity>

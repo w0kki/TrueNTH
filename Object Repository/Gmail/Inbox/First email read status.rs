@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id=&quot;:3f&quot;]/span</value>
+         <value>//div[@id=&quot;:3a&quot;]/span</value>
       </entry>
       <entry>
          <key>BASIC</key>

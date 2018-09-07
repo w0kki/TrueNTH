@@ -5,18 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>eefb5cd9-ba7e-4ed1-82bd-a924273e7270</testCaseGuid>
-   <variable>
-      <defaultValue>'truenthauto+staff@gmail.com'</defaultValue>
-      <description></description>
-      <id>c37e1279-1722-4a85-b0f7-2af27f6d4a6c</id>
-      <masked>false</masked>
-      <name>username</name>
-   </variable>
-   <variable>
-      <defaultValue>'Truenth1'</defaultValue>
-      <description></description>
-      <id>a0a9b366-99b8-459b-8c4c-84fe38b0c6cc</id>
-      <masked>false</masked>
-      <name>password</name>
-   </variable>
 </TestCaseEntity>

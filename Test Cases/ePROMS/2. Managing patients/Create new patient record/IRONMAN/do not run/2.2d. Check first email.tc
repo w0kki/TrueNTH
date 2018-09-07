@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Start - Gmail inbox ; End - Verify account email</description>
+   <name>2.2d. Check first email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3e95a24-6b20-4370-8f38-17468dbddb46</testCaseGuid>
+   <variable>
+      <defaultValue>'invite'</defaultValue>
+      <description>The options for this are: &quot;invite&quot;, &quot;reminder&quot;, &quot;password&quot;</description>
+      <id>9c2cd3a0-9b02-448b-a9cd-cdbbfb37d4cf</id>
+      <masked>false</masked>
+      <name>emailType</name>
+   </variable>
+</TestCaseEntity>

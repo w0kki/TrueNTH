@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Start - Verify Account email ; End - Questionnaires page</description>
+   <name>2.2e. Verify email and create account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cce7ff63-c28b-43ef-898f-3104905a000e</testCaseGuid>
+</TestCaseEntity>

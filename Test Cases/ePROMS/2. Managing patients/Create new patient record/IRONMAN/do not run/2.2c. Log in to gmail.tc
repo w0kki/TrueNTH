@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Start - Gmail Log in page; End - Inbox</description>
+   <name>2.2c. Log in to gmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a018082-512b-4e05-af16-2c4c29621352</testCaseGuid>
+   <variable>
+      <defaultValue>'truenthauto@gmail.com'</defaultValue>
+      <description></description>
+      <id>e4d1974a-a298-4c38-b6e0-454c796b3951</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'truenth!'</defaultValue>
+      <description></description>
+      <id>738d0f61-825f-4837-b985-c5f7bd5d56da</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

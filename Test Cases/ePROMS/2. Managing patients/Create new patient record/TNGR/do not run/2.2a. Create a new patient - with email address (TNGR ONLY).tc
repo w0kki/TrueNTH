@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Start - Patients page; End - Newly created patient's profile</description>
+   <name>2.2a. Create a new patient - with email address (TNGR ONLY)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5440181-2c32-402d-ae74-19b389f7970c</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>20f1d919-1fb3-4021-93d0-0f8ecc8501d7</id>
+      <masked>false</masked>
+      <name>birthdayDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'January'</defaultValue>
+      <description>This is the name of the month e.g. &quot;January&quot;</description>
+      <id>3f004c05-bb4e-453f-ad7c-571b46d4bece</id>
+      <masked>false</masked>
+      <name>birthdayMonth</name>
+   </variable>
+   <variable>
+      <defaultValue>'1960'</defaultValue>
+      <description></description>
+      <id>56aa60b5-8243-4814-a278-e27abe79ba8e</id>
+      <masked>false</masked>
+      <name>birthdayYear</name>
+   </variable>
+   <variable>
+      <defaultValue>'truenthauto@gmail.com'</defaultValue>
+      <description>Must be gmail</description>
+      <id>e2c214e8-d22e-4026-b8f1-1e83a535501a</id>
+      <masked>false</masked>
+      <name>emailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description>If this is true, we need to check the checkbox</description>
+      <id>6dff2ea6-c81d-421f-af86-db924213a994</id>
+      <masked>false</masked>
+      <name>noEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234567890'</defaultValue>
+      <description></description>
+      <id>d5607806-e6c9-4fad-ad24-046edb00c811</id>
+      <masked>false</masked>
+      <name>cellNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345678'</defaultValue>
+      <description></description>
+      <id>40a53b77-75e5-4db1-bd8c-c91e1ff1a0eb</id>
+      <masked>false</masked>
+      <name>otherPhoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f931c81e-6f96-49c6-8afd-5359a2e56f37</id>
+      <masked>false</masked>
+      <name>studyID</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>1d9e229d-5bab-47ca-9475-e14a869f1019</id>
+      <masked>false</masked>
+      <name>consentDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'August'</defaultValue>
+      <description>This is the name of the month e.g. &quot;January&quot;</description>
+      <id>6af4c37d-9931-4fbd-81af-269396fd93f8</id>
+      <masked>false</masked>
+      <name>consentMonth</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018'</defaultValue>
+      <description></description>
+      <id>5c62edd0-83ff-4098-aae9-b5877c46d217</id>
+      <masked>false</masked>
+      <name>consentYear</name>
+   </variable>
+</TestCaseEntity>

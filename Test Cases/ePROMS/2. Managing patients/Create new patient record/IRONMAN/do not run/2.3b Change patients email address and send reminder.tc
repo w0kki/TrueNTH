@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2.3b Change patients email address and send reminder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d97d6ca-68a1-4909-ac66-0f17f6773336</testCaseGuid>
+   <variable>
+      <defaultValue>'Invite'</defaultValue>
+      <description></description>
+      <id>eb4fdc6c-2dab-465d-821c-980655bcbb8f</id>
+      <masked>false</masked>
+      <name>emailType</name>
+   </variable>
+</TestCaseEntity>

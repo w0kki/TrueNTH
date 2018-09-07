@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='password']/div[contains(@class, 'aCsJod oJeWuf')]/div[contains(@class, 'aXBtI Wic03c')]/div[contains(@class, 'Xb9hP')]/input[contains(@class, 'whsOnd zHQkBf')]</value>
+         <value>//input[contains(@class, 'whsOnd zHQkBf')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

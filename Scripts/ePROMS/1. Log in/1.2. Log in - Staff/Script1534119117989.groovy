@@ -24,7 +24,7 @@ WebUI.openBrowser(GlobalVariable.url)
 
 not_run: WebUI.maximizeWindow()
 
-WebUI.waitForElementClickable(findTestObject('TrueNTH/TrueNTH Page/Log in button'), 30)
+WebUI.waitForElementClickable(findTestObject('TrueNTH/TrueNTH Page/Log in button'), 180)
 
 WebUI.delay(1)
 
@@ -34,11 +34,13 @@ WebUI.waitForElementVisible(findTestObject('TrueNTH/Log in page/Email address fi
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('TrueNTH/Log in page/Email address field'), username)
+WebUI.setText(findTestObject('TrueNTH/Log in page/Email address field'), GlobalVariable.staffUsername)
 
-WebUI.setText(findTestObject('TrueNTH/Log in page/Password field'), password)
+WebUI.setText(findTestObject('TrueNTH/Log in page/Password field'), GlobalVariable.staffPassword)
 
 WebUI.click(findTestObject('TrueNTH/Log in page/Log in'))
 
-WebUI.waitForElementVisible(findTestObject('TrueNTH/Patients page/Patients Table'), 120)
+WebUI.waitForElementVisible(findTestObject('TrueNTH/Patients page/Patients Table'), 600)
+
+WebUI.delay(1)
 

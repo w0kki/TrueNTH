@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Start - Newly created patient's profile; End - Gmail log in page</description>
+   <name>2.2b. Send patient Email (TNGR ONLY)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c238033-c755-4579-babf-0b92157dc910</testCaseGuid>
+   <variable>
+      <defaultValue>'Invite'</defaultValue>
+      <description>This variable has to be either &quot;invite&quot; or &quot;reminder&quot;</description>
+      <id>84359241-d027-462d-9bd4-df0b1b63213b</id>
+      <masked>false</masked>
+      <name>emailType</name>
+   </variable>
+</TestCaseEntity>
