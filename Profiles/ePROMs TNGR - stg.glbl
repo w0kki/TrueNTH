@@ -42,7 +42,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'January'</initValue>
-      <name>birthdateMonth</name>
+      <name>birthdateMonthName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -88,5 +88,10 @@
       <description></description>
       <initValue>'2018'</initValue>
       <name>treatmentYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'01'</initValue>
+      <name>birthdateMonth</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

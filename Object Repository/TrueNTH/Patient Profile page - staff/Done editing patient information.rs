@@ -6,12 +6,11 @@
    <elementGuidId>491a2e23-ce73-4da6-8e77-f74a083793a0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[contains(@class, 'btn profile-item-edit-btn active')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(@class, 'profile-item-container editable  edit')]/input[contains(@class, 'btn profile-item-edit-btn  active')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

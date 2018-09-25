@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DOB (month)</name>
+   <name>First name field</name>
    <tag></tag>
-   <elementGuidId>6905d5f3-6303-4a4d-8839-613007152524</elementGuidId>
+   <elementGuidId>de8121c2-bfbe-410b-a40b-e6486b6b4ba1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select</value>
+         <value>//input[@id='firstname']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

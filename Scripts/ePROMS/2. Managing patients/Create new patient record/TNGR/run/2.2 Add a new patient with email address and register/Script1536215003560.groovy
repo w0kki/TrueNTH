@@ -31,15 +31,15 @@ WebUI.callTestCase(findTestCase('ePROMS/2. Managing patients/Create new patient 
 
 not_run: WebUI.callTestCase(findTestCase('Wait 5 mins'), [('minutes') : 5], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Wait 10 mins'), [('minutes') : 10], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Wait 10 mins'), [('minutes') : 10], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.callTestCase(findTestCase('Wait 30 mins'), [('minutes') : 30], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ePROMS/2. Managing patients/Create new patient record/TNGR/do not run/2.2c. Log in to gmail'), [('email') : 'truenthauto@gmail.com'
-        , ('password') : 'truenth!'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ePROMS/2. Managing patients/Create new patient record/TNGR/do not run/2.2c. Log in to gmail'), 
+    [('email') : 'truenthauto@gmail.com', ('password') : 'truenth!'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ePROMS/2. Managing patients/Create new patient record/TNGR/do not run/2.2d. Check first email'), [('emailType') : 'invite'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ePROMS/2. Managing patients/Create new patient record/TNGR/do not run/2.2d. Check first email'), 
+    [('emailType') : 'invite'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ePROMS/2. Managing patients/Create new patient record/TNGR/do not run/2.2e. Verify email and create account'), 
     [:], FailureHandling.STOP_ON_FAILURE)

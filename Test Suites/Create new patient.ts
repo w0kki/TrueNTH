@@ -12,7 +12,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Create patient - TNGR</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Create new patient - TNGR</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -21,7 +21,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Create patient - IRONMAN</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Create new patient - IRONMAN</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

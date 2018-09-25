@@ -28,7 +28,7 @@ patientProfileLink = ('https://stg-eproms.us.truenth.org/patients/patient_profil
 
 WebUI.navigateToUrl(patientProfileLink)
 
-WebUI.callTestCase(findTestCase('ePROMS/2. Managing patients/Create new patient record/IRONMAN/do not run/2.3b Change patients email address and send reminder'), 
+WebUI.callTestCase(findTestCase('ePROMS/2. Managing patients/Create new patient record/IRONMAN/do not run/2.3b Change patients name, add email address and send reminder'), 
     [('emailType') : 'Invite'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ePROMS/2. Managing patients/Create new patient record/IRONMAN/do not run/2.2c. Log in to gmail'), 

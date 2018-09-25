@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('TrueNTH/New Patient Page/Last name field'), Global
 
 WebUI.setText(findTestObject('TrueNTH/New Patient Page/Birthdate/Date field'), GlobalVariable.birthdateDay)
 
-WebUI.selectOptionByLabel(findTestObject('TrueNTH/New Patient Page/Birthdate/Month field'), GlobalVariable.birthdateMonth, 
+WebUI.selectOptionByLabel(findTestObject('TrueNTH/New Patient Page/Birthdate/Month field'), GlobalVariable.birthdateMonthName, 
     false)
 
 WebUI.setText(findTestObject('TrueNTH/New Patient Page/Birthdate/Year field'), GlobalVariable.birthdateYear)

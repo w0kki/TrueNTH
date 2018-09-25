@@ -26,7 +26,7 @@ WebUI.setText(findTestObject('TrueNTH/Verify Account page (challenge)/Last name 
 WebUI.setText(findTestObject('TrueNTH/Verify Account page (challenge)/Birthdate/Birthdate day field'), GlobalVariable.birthdateDay, 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('TrueNTH/Verify Account page (challenge)/Birthdate/Birthdate month field'), GlobalVariable.birthdateMonth, 
+WebUI.selectOptionByLabel(findTestObject('TrueNTH/Verify Account page (challenge)/Birthdate/Birthdate month field'), GlobalVariable.birthdateMonthName, 
     false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('TrueNTH/Verify Account page (challenge)/Birthdate/Birthdate year field'), GlobalVariable.birthdateYear, 

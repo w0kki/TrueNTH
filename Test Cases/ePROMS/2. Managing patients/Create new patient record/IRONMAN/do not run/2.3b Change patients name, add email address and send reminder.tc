@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>2.3b Change patients email address and send reminder</name>
+   <name>2.3b Change patients name, add email address and send reminder</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0d97d6ca-68a1-4909-ac66-0f17f6773336</testCaseGuid>
@@ -11,5 +11,12 @@
       <id>eb4fdc6c-2dab-465d-821c-980655bcbb8f</id>
       <masked>false</masked>
       <name>emailType</name>
+   </variable>
+   <variable>
+      <defaultValue>'truenthauto@gmail.com'</defaultValue>
+      <description></description>
+      <id>1a9ffba6-8be4-44db-8018-bdebf7d150a5</id>
+      <masked>false</masked>
+      <name>emailAddress</name>
    </variable>
 </TestCaseEntity>

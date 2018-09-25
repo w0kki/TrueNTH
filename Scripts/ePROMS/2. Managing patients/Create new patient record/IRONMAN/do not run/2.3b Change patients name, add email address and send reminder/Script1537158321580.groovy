@@ -30,6 +30,30 @@ randomEmail = ((((emailAddress - '@gmail.com') + '+') + randomNum) + '@gmail.com
 
 WebUI.setText(findTestObject('TrueNTH/Patient Profile page - staff/Email address field'), randomEmail)
 
+WebUI.click(findTestObject('TrueNTH/Patient Profile page - staff/Study ID field'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementNotVisible(findTestObject('TrueNTH/Patient Profile page - staff/change email progress'), 5)
+
+WebUI.setText(findTestObject('TrueNTH/Patient Profile page - staff/First name field'), GlobalVariable.firstName)
+
+WebUI.click(findTestObject('TrueNTH/Patient Profile page - staff/Study ID field'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementNotVisible(findTestObject('TrueNTH/Patient Profile page - staff/change first name progress'), 5)
+
+WebUI.setText(findTestObject('TrueNTH/Patient Profile page - staff/Last name field'), GlobalVariable.lastName)
+
+WebUI.click(findTestObject('TrueNTH/Patient Profile page - staff/Study ID field'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementNotVisible(findTestObject('TrueNTH/Patient Profile page - staff/change last name progress'), 5)
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('TrueNTH/Patient Profile page - staff/Done editing patient information'))
 
 WebUI.scrollToElement(findTestObject('TrueNTH/Patient Profile page - staff/Send email to patient dropdown'), 0)

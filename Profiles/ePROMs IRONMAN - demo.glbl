@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Jan'</initValue>
+      <initValue>'January'</initValue>
       <name>birthdateMonthName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -108,5 +108,10 @@
       <description></description>
       <initValue>'2018'</initValue>
       <name>consentYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jan'</initValue>
+      <name>birthdateMonthShort</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

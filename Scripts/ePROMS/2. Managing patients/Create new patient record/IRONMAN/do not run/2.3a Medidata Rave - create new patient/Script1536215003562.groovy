@@ -119,7 +119,7 @@ WebUI.setText(findTestObject('Medidata Rave/Add Subject/1. Enter Subject ID/2. S
     GlobalVariable.birthdateDay)
 
 WebUI.selectOptionByValue(findTestObject('Medidata Rave/Add Subject/1. Enter Subject ID/2. Subject page (after adding new subject)/2.1 Eligibility/Demographics/DOB (month)'), 
-    GlobalVariable.birthdateMonthName, false)
+    GlobalVariable.birthdateMonthShort, false)
 
 WebUI.setText(findTestObject('Medidata Rave/Add Subject/1. Enter Subject ID/2. Subject page (after adding new subject)/2.1 Eligibility/Demographics/DOB (year)'), 
     GlobalVariable.birthdateYear)
